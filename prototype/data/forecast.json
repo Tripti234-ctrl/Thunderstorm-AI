@@ -1,0 +1,4543 @@
+{
+  "region": "Dehradun",
+  "grid_size": 8,
+  "time_steps": [
+    "now",
+    "+15",
+    "+30",
+    "+45",
+    "+60"
+  ],
+  "generated_with": "rule-based fusion baseline (Stage 1) - swap in a trained model later",
+  "weights": {
+    "radar": 0.35,
+    "satellite": 0.25,
+    "lightning": 0.25,
+    "instability": 0.15
+  },
+  "frames": [
+    {
+      "label": "now",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0,
+          "risk": 13.2,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.126,
+            "satellite": 0.184,
+            "lightning": 0.0,
+            "instability": 0.282
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "risk": 23.1,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.226,
+            "satellite": 0.326,
+            "lightning": 0.073,
+            "instability": 0.347
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "risk": 23.9,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.246,
+            "satellite": 0.312,
+            "lightning": 0.054,
+            "instability": 0.41
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "risk": 21.1,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.169,
+            "satellite": 0.288,
+            "lightning": 0.09,
+            "instability": 0.384
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 4,
+          "risk": 14.7,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.093,
+            "satellite": 0.229,
+            "lightning": 0.069,
+            "instability": 0.265
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "risk": 8.7,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.068,
+            "satellite": 0.142,
+            "lightning": 0.001,
+            "instability": 0.183
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 6,
+          "risk": 4.2,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.048,
+            "satellite": 0.044,
+            "lightning": 0.0,
+            "instability": 0.093
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 7,
+          "risk": 3.6,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.03,
+            "satellite": 0.029,
+            "lightning": 0.025,
+            "instability": 0.083
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "risk": 22.7,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.21,
+            "satellite": 0.35,
+            "lightning": 0.032,
+            "instability": 0.384
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "risk": 36.6,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.399,
+            "satellite": 0.448,
+            "lightning": 0.168,
+            "instability": 0.481
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "risk": 41.0,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.469,
+            "satellite": 0.455,
+            "lightning": 0.233,
+            "instability": 0.494
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "risk": 34.8,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.339,
+            "satellite": 0.417,
+            "lightning": 0.227,
+            "instability": 0.457
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "risk": 23.9,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.218,
+            "satellite": 0.301,
+            "lightning": 0.135,
+            "instability": 0.357
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "risk": 12.9,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.059,
+            "satellite": 0.212,
+            "lightning": 0.057,
+            "instability": 0.271
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 6,
+          "risk": 4.7,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.098,
+            "lightning": 0.0,
+            "instability": 0.147
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 7,
+          "risk": 4.1,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.043,
+            "satellite": 0.04,
+            "lightning": 0.005,
+            "instability": 0.095
+          },
+          "reasons": []
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "risk": 26.0,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.279,
+            "satellite": 0.372,
+            "lightning": 0.055,
+            "instability": 0.372
+          },
+          "reasons": []
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "risk": 41.1,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.438,
+            "satellite": 0.472,
+            "lightning": 0.232,
+            "instability": 0.546
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "risk": 53.8,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.58,
+            "satellite": 0.535,
+            "lightning": 0.48,
+            "instability": 0.542
+          },
+          "reasons": [
+            "Rapid increase in radar reflectivity",
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery"
+          ]
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "risk": 47.9,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.486,
+            "satellite": 0.488,
+            "lightning": 0.455,
+            "instability": 0.491
+          },
+          "reasons": []
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "risk": 30.7,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.257,
+            "satellite": 0.33,
+            "lightning": 0.273,
+            "instability": 0.441
+          },
+          "reasons": []
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "risk": 14.8,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.087,
+            "satellite": 0.176,
+            "lightning": 0.123,
+            "instability": 0.283
+          },
+          "reasons": []
+        },
+        {
+          "row": 2,
+          "col": 6,
+          "risk": 4.0,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.053,
+            "lightning": 0.0,
+            "instability": 0.179
+          },
+          "reasons": []
+        },
+        {
+          "row": 2,
+          "col": 7,
+          "risk": 2.8,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.028,
+            "satellite": 0.026,
+            "lightning": 0.0,
+            "instability": 0.077
+          },
+          "reasons": []
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "risk": 25.5,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.247,
+            "satellite": 0.314,
+            "lightning": 0.116,
+            "instability": 0.409
+          },
+          "reasons": []
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "risk": 37.0,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.333,
+            "satellite": 0.456,
+            "lightning": 0.273,
+            "instability": 0.477
+          },
+          "reasons": []
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "risk": 46.4,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.434,
+            "satellite": 0.502,
+            "lightning": 0.443,
+            "instability": 0.506
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery"
+          ]
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "risk": 44.4,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.368,
+            "satellite": 0.475,
+            "lightning": 0.511,
+            "instability": 0.455
+          },
+          "reasons": [
+            "Lightning strike density increasing"
+          ]
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "risk": 28.1,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.207,
+            "satellite": 0.286,
+            "lightning": 0.303,
+            "instability": 0.41
+          },
+          "reasons": []
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "risk": 12.7,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.062,
+            "satellite": 0.188,
+            "lightning": 0.093,
+            "instability": 0.235
+          },
+          "reasons": []
+        },
+        {
+          "row": 3,
+          "col": 6,
+          "risk": 6.8,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.041,
+            "satellite": 0.083,
+            "lightning": 0.037,
+            "instability": 0.159
+          },
+          "reasons": []
+        },
+        {
+          "row": 3,
+          "col": 7,
+          "risk": 2.1,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.015,
+            "lightning": 0.0,
+            "instability": 0.115
+          },
+          "reasons": []
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "risk": 16.1,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.146,
+            "satellite": 0.249,
+            "lightning": 0.028,
+            "instability": 0.269
+          },
+          "reasons": []
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "risk": 25.5,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.237,
+            "satellite": 0.348,
+            "lightning": 0.112,
+            "instability": 0.379
+          },
+          "reasons": []
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "risk": 29.7,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.217,
+            "satellite": 0.37,
+            "lightning": 0.288,
+            "instability": 0.379
+          },
+          "reasons": []
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "risk": 27.5,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.205,
+            "satellite": 0.316,
+            "lightning": 0.251,
+            "instability": 0.41
+          },
+          "reasons": []
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "risk": 17.5,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.109,
+            "satellite": 0.199,
+            "lightning": 0.155,
+            "instability": 0.323
+          },
+          "reasons": []
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "risk": 9.0,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.02,
+            "satellite": 0.111,
+            "lightning": 0.087,
+            "instability": 0.222
+          },
+          "reasons": []
+        },
+        {
+          "row": 4,
+          "col": 6,
+          "risk": 3.2,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.006,
+            "satellite": 0.058,
+            "lightning": 0.0,
+            "instability": 0.103
+          },
+          "reasons": []
+        },
+        {
+          "row": 4,
+          "col": 7,
+          "risk": 1.3,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.028,
+            "lightning": 0.0,
+            "instability": 0.042
+          },
+          "reasons": []
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "risk": 7.4,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.009,
+            "satellite": 0.136,
+            "lightning": 0.0,
+            "instability": 0.243
+          },
+          "reasons": []
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "risk": 12.1,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.107,
+            "satellite": 0.143,
+            "lightning": 0.024,
+            "instability": 0.276
+          },
+          "reasons": []
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "risk": 14.0,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.072,
+            "satellite": 0.169,
+            "lightning": 0.118,
+            "instability": 0.288
+          },
+          "reasons": []
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "risk": 14.0,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.076,
+            "satellite": 0.2,
+            "lightning": 0.109,
+            "instability": 0.238
+          },
+          "reasons": []
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "risk": 7.5,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.011,
+            "satellite": 0.12,
+            "lightning": 0.041,
+            "instability": 0.208
+          },
+          "reasons": []
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "risk": 6.4,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.035,
+            "satellite": 0.085,
+            "lightning": 0.053,
+            "instability": 0.113
+          },
+          "reasons": []
+        },
+        {
+          "row": 5,
+          "col": 6,
+          "risk": 2.2,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.019,
+            "lightning": 0.031,
+            "instability": 0.066
+          },
+          "reasons": []
+        },
+        {
+          "row": 5,
+          "col": 7,
+          "risk": 0.6,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.008,
+            "lightning": 0.0,
+            "instability": 0.027
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "risk": 4.6,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.091,
+            "lightning": 0.0,
+            "instability": 0.154
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "risk": 5.9,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.024,
+            "satellite": 0.044,
+            "lightning": 0.048,
+            "instability": 0.183
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "risk": 8.4,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.062,
+            "satellite": 0.124,
+            "lightning": 0.042,
+            "instability": 0.142
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "risk": 4.1,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.019,
+            "satellite": 0.057,
+            "lightning": 0.007,
+            "instability": 0.121
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 4,
+          "risk": 4.7,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.001,
+            "satellite": 0.096,
+            "lightning": 0.0,
+            "instability": 0.148
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 5,
+          "risk": 3.6,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.001,
+            "satellite": 0.026,
+            "lightning": 0.039,
+            "instability": 0.126
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 6,
+          "risk": 1.5,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.006,
+            "satellite": 0.032,
+            "lightning": 0.0,
+            "instability": 0.035
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 7,
+          "risk": 2.4,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.038,
+            "satellite": 0.012,
+            "lightning": 0.003,
+            "instability": 0.046
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 0,
+          "risk": 2.1,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.027,
+            "lightning": 0.0,
+            "instability": 0.093
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 1,
+          "risk": 2.5,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.066,
+            "lightning": 0.0,
+            "instability": 0.055
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 2,
+          "risk": 2.4,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.012,
+            "satellite": 0.046,
+            "lightning": 0.0,
+            "instability": 0.056
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 3,
+          "risk": 3.0,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.035,
+            "satellite": 0.009,
+            "lightning": 0.009,
+            "instability": 0.09
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 4,
+          "risk": 2.2,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.027,
+            "lightning": 0.003,
+            "instability": 0.099
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 5,
+          "risk": 1.3,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.029,
+            "lightning": 0.0,
+            "instability": 0.036
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 6,
+          "risk": 1.2,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.014,
+            "satellite": 0.0,
+            "lightning": 0.0,
+            "instability": 0.047
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 7,
+          "risk": 1.8,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.0,
+            "lightning": 0.04,
+            "instability": 0.053
+          },
+          "reasons": []
+        }
+      ],
+      "summary": {
+        "thunderstorm_risk": 53.8,
+        "lightning_risk": 51.1,
+        "rainfall_probability": 58.0,
+        "peak_cell": {
+          "row": 2,
+          "col": 2
+        },
+        "top_reasons": [
+          "Rapid increase in radar reflectivity",
+          "High atmospheric instability (CAPE/wind shear)",
+          "Cloud-top cooling detected in satellite IR imagery"
+        ]
+      }
+    },
+    {
+      "label": "+15",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0,
+          "risk": 10.6,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.225,
+            "lightning": 0.0,
+            "instability": 0.33
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "risk": 20.0,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.117,
+            "satellite": 0.408,
+            "lightning": 0.0,
+            "instability": 0.382
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "risk": 26.5,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.175,
+            "satellite": 0.474,
+            "lightning": 0.025,
+            "instability": 0.527
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "risk": 25.2,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.185,
+            "satellite": 0.403,
+            "lightning": 0.052,
+            "instability": 0.487
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 4,
+          "risk": 20.8,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.148,
+            "satellite": 0.376,
+            "lightning": 0.0,
+            "instability": 0.416
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "risk": 12.0,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.04,
+            "satellite": 0.214,
+            "lightning": 0.0,
+            "instability": 0.351
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 6,
+          "risk": 7.0,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.043,
+            "satellite": 0.079,
+            "lightning": 0.015,
+            "instability": 0.207
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 7,
+          "risk": 4.1,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.005,
+            "satellite": 0.072,
+            "lightning": 0.028,
+            "instability": 0.096
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "risk": 18.3,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.081,
+            "satellite": 0.36,
+            "lightning": 0.0,
+            "instability": 0.431
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "risk": 31.7,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.231,
+            "satellite": 0.555,
+            "lightning": 0.048,
+            "instability": 0.57
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery"
+          ]
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "risk": 41.3,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.37,
+            "satellite": 0.657,
+            "lightning": 0.054,
+            "instability": 0.707
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery"
+          ]
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "risk": 48.3,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.468,
+            "satellite": 0.677,
+            "lightning": 0.177,
+            "instability": 0.703
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery"
+          ]
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "risk": 36.1,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.313,
+            "satellite": 0.489,
+            "lightning": 0.127,
+            "instability": 0.651
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "risk": 25.3,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.205,
+            "satellite": 0.347,
+            "lightning": 0.106,
+            "instability": 0.451
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 6,
+          "risk": 10.9,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.045,
+            "satellite": 0.124,
+            "lightning": 0.044,
+            "instability": 0.344
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 7,
+          "risk": 5.2,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.008,
+            "satellite": 0.07,
+            "lightning": 0.0,
+            "instability": 0.213
+          },
+          "reasons": []
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "risk": 27.4,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.178,
+            "satellite": 0.496,
+            "lightning": 0.041,
+            "instability": 0.519
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "risk": 42.2,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.338,
+            "satellite": 0.715,
+            "lightning": 0.075,
+            "instability": 0.711
+          },
+          "reasons": [
+            "Cloud-top cooling detected in satellite IR imagery",
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "risk": 64.5,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.668,
+            "satellite": 0.874,
+            "lightning": 0.297,
+            "instability": 0.789
+          },
+          "reasons": [
+            "Cloud-top cooling detected in satellite IR imagery",
+            "High atmospheric instability (CAPE/wind shear)",
+            "Rapid increase in radar reflectivity"
+          ]
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "risk": 71.7,
+          "category": "RED",
+          "proxies": {
+            "radar": 0.768,
+            "satellite": 0.785,
+            "lightning": 0.493,
+            "instability": 0.86
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery",
+            "Rapid increase in radar reflectivity"
+          ]
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "risk": 57.7,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.562,
+            "satellite": 0.654,
+            "lightning": 0.434,
+            "instability": 0.723
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery",
+            "Rapid increase in radar reflectivity"
+          ]
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "risk": 33.6,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.333,
+            "satellite": 0.364,
+            "lightning": 0.19,
+            "instability": 0.542
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 2,
+          "col": 6,
+          "risk": 16.8,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.097,
+            "satellite": 0.218,
+            "lightning": 0.103,
+            "instability": 0.356
+          },
+          "reasons": []
+        },
+        {
+          "row": 2,
+          "col": 7,
+          "risk": 7.4,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.038,
+            "satellite": 0.066,
+            "lightning": 0.049,
+            "instability": 0.216
+          },
+          "reasons": []
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "risk": 26.3,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.207,
+            "satellite": 0.412,
+            "lightning": 0.065,
+            "instability": 0.477
+          },
+          "reasons": []
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "risk": 46.2,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.473,
+            "satellite": 0.654,
+            "lightning": 0.119,
+            "instability": 0.691
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery"
+          ]
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "risk": 71.1,
+          "category": "RED",
+          "proxies": {
+            "radar": 0.764,
+            "satellite": 0.801,
+            "lightning": 0.472,
+            "instability": 0.833
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery",
+            "Rapid increase in radar reflectivity"
+          ]
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "risk": 82.1,
+          "category": "RED",
+          "proxies": {
+            "radar": 0.854,
+            "satellite": 0.795,
+            "lightning": 0.77,
+            "instability": 0.873
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Rapid increase in radar reflectivity",
+            "Cloud-top cooling detected in satellite IR imagery"
+          ]
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "risk": 68.7,
+          "category": "RED",
+          "proxies": {
+            "radar": 0.636,
+            "satellite": 0.642,
+            "lightning": 0.747,
+            "instability": 0.779
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Lightning strike density increasing",
+            "Cloud-top cooling detected in satellite IR imagery"
+          ]
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "risk": 40.6,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.378,
+            "satellite": 0.387,
+            "lightning": 0.377,
+            "instability": 0.549
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 3,
+          "col": 6,
+          "risk": 17.8,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.142,
+            "satellite": 0.169,
+            "lightning": 0.097,
+            "instability": 0.413
+          },
+          "reasons": []
+        },
+        {
+          "row": 3,
+          "col": 7,
+          "risk": 6.3,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.049,
+            "satellite": 0.055,
+            "lightning": 0.003,
+            "instability": 0.212
+          },
+          "reasons": []
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "risk": 19.2,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.127,
+            "satellite": 0.325,
+            "lightning": 0.0,
+            "instability": 0.44
+          },
+          "reasons": []
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "risk": 40.3,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.376,
+            "satellite": 0.533,
+            "lightning": 0.174,
+            "instability": 0.628
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery"
+          ]
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "risk": 56.5,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.568,
+            "satellite": 0.633,
+            "lightning": 0.397,
+            "instability": 0.722
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery",
+            "Rapid increase in radar reflectivity"
+          ]
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "risk": 69.1,
+          "category": "RED",
+          "proxies": {
+            "radar": 0.67,
+            "satellite": 0.614,
+            "lightning": 0.757,
+            "instability": 0.758
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Lightning strike density increasing",
+            "Rapid increase in radar reflectivity"
+          ]
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "risk": 57.6,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.525,
+            "satellite": 0.445,
+            "lightning": 0.699,
+            "instability": 0.708
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Lightning strike density increasing",
+            "Rapid increase in radar reflectivity"
+          ]
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "risk": 33.3,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.304,
+            "satellite": 0.261,
+            "lightning": 0.333,
+            "instability": 0.519
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 4,
+          "col": 6,
+          "risk": 15.8,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.111,
+            "satellite": 0.128,
+            "lightning": 0.131,
+            "instability": 0.362
+          },
+          "reasons": []
+        },
+        {
+          "row": 4,
+          "col": 7,
+          "risk": 4.5,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.038,
+            "satellite": 0.033,
+            "lightning": 0.0,
+            "instability": 0.157
+          },
+          "reasons": []
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "risk": 12.6,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.051,
+            "satellite": 0.207,
+            "lightning": 0.041,
+            "instability": 0.308
+          },
+          "reasons": []
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "risk": 22.9,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.174,
+            "satellite": 0.329,
+            "lightning": 0.05,
+            "instability": 0.49
+          },
+          "reasons": []
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "risk": 33.9,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.309,
+            "satellite": 0.366,
+            "lightning": 0.24,
+            "instability": 0.527
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "risk": 40.7,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.378,
+            "satellite": 0.395,
+            "lightning": 0.357,
+            "instability": 0.577
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "risk": 33.4,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.255,
+            "satellite": 0.324,
+            "lightning": 0.367,
+            "instability": 0.482
+          },
+          "reasons": []
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "risk": 20.6,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.129,
+            "satellite": 0.204,
+            "lightning": 0.187,
+            "instability": 0.421
+          },
+          "reasons": []
+        },
+        {
+          "row": 5,
+          "col": 6,
+          "risk": 11.5,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.067,
+            "satellite": 0.125,
+            "lightning": 0.063,
+            "instability": 0.298
+          },
+          "reasons": []
+        },
+        {
+          "row": 5,
+          "col": 7,
+          "risk": 5.5,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.044,
+            "satellite": 0.043,
+            "lightning": 0.026,
+            "instability": 0.15
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "risk": 9.1,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.052,
+            "satellite": 0.106,
+            "lightning": 0.036,
+            "instability": 0.246
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "risk": 10.5,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.063,
+            "satellite": 0.137,
+            "lightning": 0.001,
+            "instability": 0.324
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "risk": 16.6,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.132,
+            "satellite": 0.191,
+            "lightning": 0.076,
+            "instability": 0.356
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "risk": 15.4,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.095,
+            "satellite": 0.166,
+            "lightning": 0.094,
+            "instability": 0.371
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 4,
+          "risk": 13.9,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.104,
+            "satellite": 0.112,
+            "lightning": 0.084,
+            "instability": 0.358
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 5,
+          "risk": 8.9,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.07,
+            "satellite": 0.052,
+            "lightning": 0.048,
+            "instability": 0.266
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 6,
+          "risk": 4.2,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.012,
+            "satellite": 0.019,
+            "lightning": 0.01,
+            "instability": 0.206
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 7,
+          "risk": 3.8,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.011,
+            "satellite": 0.032,
+            "lightning": 0.031,
+            "instability": 0.12
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 0,
+          "risk": 2.2,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.0,
+            "lightning": 0.0,
+            "instability": 0.149
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 1,
+          "risk": 6.9,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.044,
+            "satellite": 0.097,
+            "lightning": 0.0,
+            "instability": 0.198
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 2,
+          "risk": 6.0,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.031,
+            "satellite": 0.082,
+            "lightning": 0.0,
+            "instability": 0.191
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 3,
+          "risk": 5.4,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.026,
+            "satellite": 0.034,
+            "lightning": 0.005,
+            "instability": 0.234
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 4,
+          "risk": 4.1,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.017,
+            "satellite": 0.028,
+            "lightning": 0.014,
+            "instability": 0.165
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 5,
+          "risk": 3.1,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.023,
+            "satellite": 0.0,
+            "lightning": 0.0,
+            "instability": 0.155
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 6,
+          "risk": 2.1,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.028,
+            "lightning": 0.0,
+            "instability": 0.096
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 7,
+          "risk": 0.6,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.0,
+            "lightning": 0.0,
+            "instability": 0.042
+          },
+          "reasons": []
+        }
+      ],
+      "summary": {
+        "thunderstorm_risk": 82.1,
+        "lightning_risk": 77.0,
+        "rainfall_probability": 85.4,
+        "peak_cell": {
+          "row": 3,
+          "col": 3
+        },
+        "top_reasons": [
+          "High atmospheric instability (CAPE/wind shear)",
+          "Rapid increase in radar reflectivity",
+          "Cloud-top cooling detected in satellite IR imagery"
+        ]
+      }
+    },
+    {
+      "label": "+30",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0,
+          "risk": 6.2,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.025,
+            "satellite": 0.085,
+            "lightning": 0.02,
+            "instability": 0.178
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "risk": 7.2,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.142,
+            "lightning": 0.0,
+            "instability": 0.241
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "risk": 14.3,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.075,
+            "satellite": 0.247,
+            "lightning": 0.013,
+            "instability": 0.346
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "risk": 16.9,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.07,
+            "satellite": 0.326,
+            "lightning": 0.039,
+            "instability": 0.355
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 4,
+          "risk": 13.3,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.025,
+            "satellite": 0.259,
+            "lightning": 0.0,
+            "instability": 0.397
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "risk": 12.5,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.052,
+            "satellite": 0.193,
+            "lightning": 0.02,
+            "instability": 0.356
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 6,
+          "risk": 7.3,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.137,
+            "lightning": 0.022,
+            "instability": 0.221
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 7,
+          "risk": 5.5,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.034,
+            "satellite": 0.098,
+            "lightning": 0.0,
+            "instability": 0.125
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "risk": 9.1,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.19,
+            "lightning": 0.037,
+            "instability": 0.23
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "risk": 15.9,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.069,
+            "satellite": 0.292,
+            "lightning": 0.017,
+            "instability": 0.385
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "risk": 24.6,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.094,
+            "satellite": 0.503,
+            "lightning": 0.037,
+            "instability": 0.518
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery"
+          ]
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "risk": 31.2,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.174,
+            "satellite": 0.606,
+            "lightning": 0.048,
+            "instability": 0.585
+          },
+          "reasons": [
+            "Cloud-top cooling detected in satellite IR imagery",
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "risk": 30.7,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.22,
+            "satellite": 0.523,
+            "lightning": 0.041,
+            "instability": 0.592
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery"
+          ]
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "risk": 26.0,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.196,
+            "satellite": 0.425,
+            "lightning": 0.004,
+            "instability": 0.564
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 1,
+          "col": 6,
+          "risk": 16.7,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.096,
+            "satellite": 0.265,
+            "lightning": 0.034,
+            "instability": 0.391
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 7,
+          "risk": 9.7,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.048,
+            "satellite": 0.151,
+            "lightning": 0.0,
+            "instability": 0.282
+          },
+          "reasons": []
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "risk": 12.9,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.038,
+            "satellite": 0.258,
+            "lightning": 0.0,
+            "instability": 0.342
+          },
+          "reasons": []
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "risk": 24.5,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.107,
+            "satellite": 0.509,
+            "lightning": 0.036,
+            "instability": 0.477
+          },
+          "reasons": [
+            "Cloud-top cooling detected in satellite IR imagery"
+          ]
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "risk": 40.6,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.333,
+            "satellite": 0.691,
+            "lightning": 0.044,
+            "instability": 0.702
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery"
+          ]
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "risk": 52.8,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.483,
+            "satellite": 0.801,
+            "lightning": 0.162,
+            "instability": 0.787
+          },
+          "reasons": [
+            "Cloud-top cooling detected in satellite IR imagery",
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "risk": 56.3,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.52,
+            "satellite": 0.812,
+            "lightning": 0.199,
+            "instability": 0.852
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery",
+            "Rapid increase in radar reflectivity"
+          ]
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "risk": 44.0,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.421,
+            "satellite": 0.572,
+            "lightning": 0.146,
+            "instability": 0.752
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery"
+          ]
+        },
+        {
+          "row": 2,
+          "col": 6,
+          "risk": 25.8,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.171,
+            "satellite": 0.37,
+            "lightning": 0.089,
+            "instability": 0.559
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 2,
+          "col": 7,
+          "risk": 13.6,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.085,
+            "satellite": 0.179,
+            "lightning": 0.023,
+            "instability": 0.373
+          },
+          "reasons": []
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "risk": 13.9,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.025,
+            "satellite": 0.283,
+            "lightning": 0.018,
+            "instability": 0.364
+          },
+          "reasons": []
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "risk": 31.1,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.211,
+            "satellite": 0.565,
+            "lightning": 0.028,
+            "instability": 0.592
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery"
+          ]
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "risk": 54.2,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.512,
+            "satellite": 0.825,
+            "lightning": 0.15,
+            "instability": 0.794
+          },
+          "reasons": [
+            "Cloud-top cooling detected in satellite IR imagery",
+            "High atmospheric instability (CAPE/wind shear)",
+            "Rapid increase in radar reflectivity"
+          ]
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "risk": 74.1,
+          "category": "RED",
+          "proxies": {
+            "radar": 0.783,
+            "satellite": 0.958,
+            "lightning": 0.358,
+            "instability": 0.922
+          },
+          "reasons": [
+            "Cloud-top cooling detected in satellite IR imagery",
+            "High atmospheric instability (CAPE/wind shear)",
+            "Rapid increase in radar reflectivity"
+          ]
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "risk": 83.4,
+          "category": "RED",
+          "proxies": {
+            "radar": 0.888,
+            "satellite": 0.95,
+            "lightning": 0.579,
+            "instability": 0.94
+          },
+          "reasons": [
+            "Cloud-top cooling detected in satellite IR imagery",
+            "High atmospheric instability (CAPE/wind shear)",
+            "Rapid increase in radar reflectivity"
+          ]
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "risk": 67.7,
+          "category": "RED",
+          "proxies": {
+            "radar": 0.659,
+            "satellite": 0.714,
+            "lightning": 0.567,
+            "instability": 0.842
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery",
+            "Rapid increase in radar reflectivity"
+          ]
+        },
+        {
+          "row": 3,
+          "col": 6,
+          "risk": 35.6,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.316,
+            "satellite": 0.383,
+            "lightning": 0.232,
+            "instability": 0.61
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 3,
+          "col": 7,
+          "risk": 14.7,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.088,
+            "satellite": 0.159,
+            "lightning": 0.071,
+            "instability": 0.392
+          },
+          "reasons": []
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "risk": 16.6,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.101,
+            "satellite": 0.292,
+            "lightning": 0.02,
+            "instability": 0.354
+          },
+          "reasons": []
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "risk": 33.1,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.255,
+            "satellite": 0.532,
+            "lightning": 0.071,
+            "instability": 0.61
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery"
+          ]
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "risk": 54.9,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.541,
+            "satellite": 0.783,
+            "lightning": 0.186,
+            "instability": 0.785
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery",
+            "Rapid increase in radar reflectivity"
+          ]
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "risk": 85.4,
+          "category": "RED",
+          "proxies": {
+            "radar": 0.92,
+            "satellite": 0.927,
+            "lightning": 0.63,
+            "instability": 0.955
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery",
+            "Rapid increase in radar reflectivity"
+          ]
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "risk": 92.3,
+          "category": "RED",
+          "proxies": {
+            "radar": 0.942,
+            "satellite": 0.883,
+            "lightning": 0.921,
+            "instability": 0.946
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Rapid increase in radar reflectivity",
+            "Lightning strike density increasing"
+          ]
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "risk": 75.8,
+          "category": "RED",
+          "proxies": {
+            "radar": 0.733,
+            "satellite": 0.638,
+            "lightning": 0.877,
+            "instability": 0.819
+          },
+          "reasons": [
+            "Lightning strike density increasing",
+            "High atmospheric instability (CAPE/wind shear)",
+            "Rapid increase in radar reflectivity"
+          ]
+        },
+        {
+          "row": 4,
+          "col": 6,
+          "risk": 43.6,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.389,
+            "satellite": 0.399,
+            "lightning": 0.429,
+            "instability": 0.617
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 4,
+          "col": 7,
+          "risk": 18.2,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.127,
+            "satellite": 0.182,
+            "lightning": 0.104,
+            "instability": 0.443
+          },
+          "reasons": []
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "risk": 13.5,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.086,
+            "satellite": 0.2,
+            "lightning": 0.014,
+            "instability": 0.343
+          },
+          "reasons": []
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "risk": 25.3,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.187,
+            "satellite": 0.435,
+            "lightning": 0.012,
+            "instability": 0.504
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "risk": 42.9,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.418,
+            "satellite": 0.563,
+            "lightning": 0.159,
+            "instability": 0.682
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery"
+          ]
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "risk": 64.8,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.621,
+            "satellite": 0.692,
+            "lightning": 0.537,
+            "instability": 0.823
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery",
+            "Rapid increase in radar reflectivity"
+          ]
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "risk": 75.5,
+          "category": "RED",
+          "proxies": {
+            "radar": 0.707,
+            "satellite": 0.67,
+            "lightning": 0.853,
+            "instability": 0.845
+          },
+          "reasons": [
+            "Lightning strike density increasing",
+            "High atmospheric instability (CAPE/wind shear)",
+            "Rapid increase in radar reflectivity"
+          ]
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "risk": 62.8,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.558,
+            "satellite": 0.523,
+            "lightning": 0.756,
+            "instability": 0.751
+          },
+          "reasons": [
+            "Lightning strike density increasing",
+            "High atmospheric instability (CAPE/wind shear)",
+            "Rapid increase in radar reflectivity"
+          ]
+        },
+        {
+          "row": 5,
+          "col": 6,
+          "risk": 35.4,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.287,
+            "satellite": 0.327,
+            "lightning": 0.349,
+            "instability": 0.561
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 5,
+          "col": 7,
+          "risk": 15.9,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.105,
+            "satellite": 0.172,
+            "lightning": 0.121,
+            "instability": 0.327
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "risk": 7.2,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.113,
+            "lightning": 0.022,
+            "instability": 0.257
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "risk": 14.6,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.068,
+            "satellite": 0.208,
+            "lightning": 0.032,
+            "instability": 0.412
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "risk": 27.0,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.24,
+            "satellite": 0.352,
+            "lightning": 0.089,
+            "instability": 0.505
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "risk": 35.9,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.297,
+            "satellite": 0.41,
+            "lightning": 0.242,
+            "instability": 0.612
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 6,
+          "col": 4,
+          "risk": 42.9,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.335,
+            "satellite": 0.427,
+            "lightning": 0.432,
+            "instability": 0.645
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 6,
+          "col": 5,
+          "risk": 36.5,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.31,
+            "satellite": 0.332,
+            "lightning": 0.369,
+            "instability": 0.539
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 6,
+          "col": 6,
+          "risk": 19.2,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.102,
+            "satellite": 0.195,
+            "lightning": 0.17,
+            "instability": 0.431
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 7,
+          "risk": 9.9,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.081,
+            "satellite": 0.058,
+            "lightning": 0.053,
+            "instability": 0.283
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 0,
+          "risk": 3.2,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.007,
+            "satellite": 0.028,
+            "lightning": 0.0,
+            "instability": 0.15
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 1,
+          "risk": 9.2,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.043,
+            "satellite": 0.142,
+            "lightning": 0.0,
+            "instability": 0.273
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 2,
+          "risk": 13.5,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.053,
+            "satellite": 0.203,
+            "lightning": 0.049,
+            "instability": 0.354
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 3,
+          "risk": 16.5,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.11,
+            "satellite": 0.183,
+            "lightning": 0.055,
+            "instability": 0.447
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 4,
+          "risk": 18.9,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.118,
+            "satellite": 0.187,
+            "lightning": 0.148,
+            "instability": 0.427
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 5,
+          "risk": 13.7,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.097,
+            "satellite": 0.132,
+            "lightning": 0.07,
+            "instability": 0.35
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 6,
+          "risk": 10.1,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.068,
+            "satellite": 0.093,
+            "lightning": 0.067,
+            "instability": 0.248
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 7,
+          "risk": 5.6,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.02,
+            "satellite": 0.074,
+            "lightning": 0.007,
+            "instability": 0.192
+          },
+          "reasons": []
+        }
+      ],
+      "summary": {
+        "thunderstorm_risk": 92.3,
+        "lightning_risk": 92.1,
+        "rainfall_probability": 94.2,
+        "peak_cell": {
+          "row": 4,
+          "col": 4
+        },
+        "top_reasons": [
+          "High atmospheric instability (CAPE/wind shear)",
+          "Rapid increase in radar reflectivity",
+          "Lightning strike density increasing"
+        ]
+      }
+    },
+    {
+      "label": "+45",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0,
+          "risk": 2.0,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.057,
+            "lightning": 0.009,
+            "instability": 0.026
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "risk": 2.0,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.047,
+            "lightning": 0.004,
+            "instability": 0.051
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "risk": 5.8,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.043,
+            "satellite": 0.111,
+            "lightning": 0.0,
+            "instability": 0.098
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "risk": 7.0,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.035,
+            "satellite": 0.112,
+            "lightning": 0.017,
+            "instability": 0.172
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 4,
+          "risk": 7.5,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.156,
+            "lightning": 0.039,
+            "instability": 0.177
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "risk": 7.1,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.017,
+            "satellite": 0.108,
+            "lightning": 0.034,
+            "instability": 0.197
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 6,
+          "risk": 7.1,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.04,
+            "satellite": 0.115,
+            "lightning": 0.0,
+            "instability": 0.191
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 7,
+          "risk": 4.4,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.084,
+            "lightning": 0.001,
+            "instability": 0.15
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "risk": 2.7,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.027,
+            "lightning": 0.007,
+            "instability": 0.123
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "risk": 4.0,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.004,
+            "satellite": 0.07,
+            "lightning": 0.003,
+            "instability": 0.137
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "risk": 8.5,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.022,
+            "satellite": 0.181,
+            "lightning": 0.0,
+            "instability": 0.217
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "risk": 11.8,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.015,
+            "satellite": 0.27,
+            "lightning": 0.007,
+            "instability": 0.287
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "risk": 15.5,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.084,
+            "satellite": 0.255,
+            "lightning": 0.023,
+            "instability": 0.371
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "risk": 15.7,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.09,
+            "satellite": 0.257,
+            "lightning": 0.018,
+            "instability": 0.378
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 6,
+          "risk": 12.4,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.085,
+            "satellite": 0.194,
+            "lightning": 0.0,
+            "instability": 0.302
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 7,
+          "risk": 8.6,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.029,
+            "satellite": 0.142,
+            "lightning": 0.032,
+            "instability": 0.218
+          },
+          "reasons": []
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "risk": 4.4,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.006,
+            "satellite": 0.075,
+            "lightning": 0.018,
+            "instability": 0.122
+          },
+          "reasons": []
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "risk": 8.8,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.03,
+            "satellite": 0.149,
+            "lightning": 0.0,
+            "instability": 0.268
+          },
+          "reasons": []
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "risk": 16.1,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.046,
+            "satellite": 0.335,
+            "lightning": 0.014,
+            "instability": 0.385
+          },
+          "reasons": []
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "risk": 24.9,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.163,
+            "satellite": 0.488,
+            "lightning": 0.002,
+            "instability": 0.462
+          },
+          "reasons": []
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "risk": 30.8,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.227,
+            "satellite": 0.547,
+            "lightning": 0.061,
+            "instability": 0.512
+          },
+          "reasons": [
+            "Cloud-top cooling detected in satellite IR imagery",
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "risk": 29.5,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.185,
+            "satellite": 0.491,
+            "lightning": 0.079,
+            "instability": 0.584
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 2,
+          "col": 6,
+          "risk": 22.0,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.176,
+            "satellite": 0.344,
+            "lightning": 0.005,
+            "instability": 0.477
+          },
+          "reasons": []
+        },
+        {
+          "row": 2,
+          "col": 7,
+          "risk": 15.1,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.105,
+            "satellite": 0.198,
+            "lightning": 0.032,
+            "instability": 0.377
+          },
+          "reasons": []
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "risk": 5.8,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.136,
+            "lightning": 0.0,
+            "instability": 0.162
+          },
+          "reasons": []
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "risk": 12.0,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.011,
+            "satellite": 0.257,
+            "lightning": 0.007,
+            "instability": 0.332
+          },
+          "reasons": []
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "risk": 22.8,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.109,
+            "satellite": 0.425,
+            "lightning": 0.041,
+            "instability": 0.486
+          },
+          "reasons": []
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "risk": 37.6,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.289,
+            "satellite": 0.693,
+            "lightning": 0.028,
+            "instability": 0.633
+          },
+          "reasons": [
+            "Cloud-top cooling detected in satellite IR imagery",
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "risk": 48.6,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.461,
+            "satellite": 0.736,
+            "lightning": 0.11,
+            "instability": 0.756
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery"
+          ]
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "risk": 52.0,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.536,
+            "satellite": 0.705,
+            "lightning": 0.192,
+            "instability": 0.722
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery",
+            "Rapid increase in radar reflectivity"
+          ]
+        },
+        {
+          "row": 3,
+          "col": 6,
+          "risk": 38.8,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.346,
+            "satellite": 0.51,
+            "lightning": 0.19,
+            "instability": 0.616
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery"
+          ]
+        },
+        {
+          "row": 3,
+          "col": 7,
+          "risk": 21.4,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.152,
+            "satellite": 0.319,
+            "lightning": 0.056,
+            "instability": 0.45
+          },
+          "reasons": []
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "risk": 6.3,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.011,
+            "satellite": 0.108,
+            "lightning": 0.006,
+            "instability": 0.204
+          },
+          "reasons": []
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "risk": 17.0,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.101,
+            "satellite": 0.275,
+            "lightning": 0.042,
+            "instability": 0.367
+          },
+          "reasons": []
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "risk": 29.6,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.191,
+            "satellite": 0.531,
+            "lightning": 0.046,
+            "instability": 0.568
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery"
+          ]
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "risk": 49.9,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.444,
+            "satellite": 0.765,
+            "lightning": 0.149,
+            "instability": 0.764
+          },
+          "reasons": [
+            "Cloud-top cooling detected in satellite IR imagery",
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "risk": 70.3,
+          "category": "RED",
+          "proxies": {
+            "radar": 0.728,
+            "satellite": 0.89,
+            "lightning": 0.406,
+            "instability": 0.831
+          },
+          "reasons": [
+            "Cloud-top cooling detected in satellite IR imagery",
+            "High atmospheric instability (CAPE/wind shear)",
+            "Rapid increase in radar reflectivity"
+          ]
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "risk": 75.5,
+          "category": "RED",
+          "proxies": {
+            "radar": 0.794,
+            "satellite": 0.801,
+            "lightning": 0.597,
+            "instability": 0.854
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery",
+            "Rapid increase in radar reflectivity"
+          ]
+        },
+        {
+          "row": 4,
+          "col": 6,
+          "risk": 58.3,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.569,
+            "satellite": 0.603,
+            "lightning": 0.484,
+            "instability": 0.748
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery",
+            "Rapid increase in radar reflectivity"
+          ]
+        },
+        {
+          "row": 4,
+          "col": 7,
+          "risk": 31.0,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.279,
+            "satellite": 0.319,
+            "lightning": 0.209,
+            "instability": 0.535
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "risk": 6.5,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.032,
+            "satellite": 0.085,
+            "lightning": 0.0,
+            "instability": 0.216
+          },
+          "reasons": []
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "risk": 13.3,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.039,
+            "satellite": 0.237,
+            "lightning": 0.008,
+            "instability": 0.39
+          },
+          "reasons": []
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "risk": 30.3,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.222,
+            "satellite": 0.513,
+            "lightning": 0.072,
+            "instability": 0.525
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery"
+          ]
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "risk": 53.1,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.53,
+            "satellite": 0.689,
+            "lightning": 0.244,
+            "instability": 0.746
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery",
+            "Rapid increase in radar reflectivity"
+          ]
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "risk": 73.6,
+          "category": "RED",
+          "proxies": {
+            "radar": 0.77,
+            "satellite": 0.76,
+            "lightning": 0.62,
+            "instability": 0.808
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Rapid increase in radar reflectivity",
+            "Cloud-top cooling detected in satellite IR imagery"
+          ]
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "risk": 83.7,
+          "category": "RED",
+          "proxies": {
+            "radar": 0.859,
+            "satellite": 0.751,
+            "lightning": 0.875,
+            "instability": 0.869
+          },
+          "reasons": [
+            "Lightning strike density increasing",
+            "High atmospheric instability (CAPE/wind shear)",
+            "Rapid increase in radar reflectivity"
+          ]
+        },
+        {
+          "row": 5,
+          "col": 6,
+          "risk": 63.6,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.621,
+            "satellite": 0.55,
+            "lightning": 0.686,
+            "instability": 0.734
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Lightning strike density increasing",
+            "Rapid increase in radar reflectivity"
+          ]
+        },
+        {
+          "row": 5,
+          "col": 7,
+          "risk": 32.0,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.242,
+            "satellite": 0.308,
+            "lightning": 0.31,
+            "instability": 0.539
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "risk": 6.8,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.023,
+            "satellite": 0.092,
+            "lightning": 0.026,
+            "instability": 0.203
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "risk": 9.8,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.015,
+            "satellite": 0.173,
+            "lightning": 0.0,
+            "instability": 0.332
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "risk": 22.1,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.161,
+            "satellite": 0.383,
+            "lightning": 0.015,
+            "instability": 0.431
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "risk": 40.1,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.384,
+            "satellite": 0.535,
+            "lightning": 0.163,
+            "instability": 0.615
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery"
+          ]
+        },
+        {
+          "row": 6,
+          "col": 4,
+          "risk": 55.9,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.527,
+            "satellite": 0.612,
+            "lightning": 0.458,
+            "instability": 0.715
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Cloud-top cooling detected in satellite IR imagery",
+            "Rapid increase in radar reflectivity"
+          ]
+        },
+        {
+          "row": 6,
+          "col": 5,
+          "risk": 60.5,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.552,
+            "satellite": 0.557,
+            "lightning": 0.667,
+            "instability": 0.707
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)",
+            "Lightning strike density increasing",
+            "Cloud-top cooling detected in satellite IR imagery"
+          ]
+        },
+        {
+          "row": 6,
+          "col": 6,
+          "risk": 49.1,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.428,
+            "satellite": 0.402,
+            "lightning": 0.602,
+            "instability": 0.602
+          },
+          "reasons": [
+            "Lightning strike density increasing",
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 6,
+          "col": 7,
+          "risk": 25.0,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.219,
+            "satellite": 0.195,
+            "lightning": 0.248,
+            "instability": 0.417
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 0,
+          "risk": 3.4,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.004,
+            "satellite": 0.042,
+            "lightning": 0.036,
+            "instability": 0.087
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 1,
+          "risk": 7.8,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.012,
+            "satellite": 0.108,
+            "lightning": 0.038,
+            "instability": 0.251
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 2,
+          "risk": 13.2,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.043,
+            "satellite": 0.218,
+            "lightning": 0.02,
+            "instability": 0.383
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 3,
+          "risk": 20.6,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.161,
+            "satellite": 0.284,
+            "lightning": 0.056,
+            "instability": 0.429
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 4,
+          "risk": 32.4,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.295,
+            "satellite": 0.331,
+            "lightning": 0.226,
+            "instability": 0.54
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 7,
+          "col": 5,
+          "risk": 32.7,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.288,
+            "satellite": 0.267,
+            "lightning": 0.336,
+            "instability": 0.504
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 7,
+          "col": 6,
+          "risk": 24.2,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.17,
+            "satellite": 0.227,
+            "lightning": 0.22,
+            "instability": 0.471
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 7,
+          "risk": 13.5,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.072,
+            "satellite": 0.106,
+            "lightning": 0.144,
+            "instability": 0.318
+          },
+          "reasons": []
+        }
+      ],
+      "summary": {
+        "thunderstorm_risk": 83.7,
+        "lightning_risk": 87.5,
+        "rainfall_probability": 85.9,
+        "peak_cell": {
+          "row": 5,
+          "col": 5
+        },
+        "top_reasons": [
+          "Lightning strike density increasing",
+          "High atmospheric instability (CAPE/wind shear)",
+          "Rapid increase in radar reflectivity"
+        ]
+      }
+    },
+    {
+      "label": "+60",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0,
+          "risk": 1.4,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.034,
+            "lightning": 0.0,
+            "instability": 0.037
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "risk": 0.0,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.0,
+            "lightning": 0.0,
+            "instability": 0.0
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "risk": 1.2,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.013,
+            "satellite": 0.0,
+            "lightning": 0.0,
+            "instability": 0.053
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "risk": 0.3,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.007,
+            "lightning": 0.0,
+            "instability": 0.009
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 4,
+          "risk": 2.9,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.02,
+            "satellite": 0.032,
+            "lightning": 0.02,
+            "instability": 0.057
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "risk": 2.7,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.024,
+            "satellite": 0.034,
+            "lightning": 0.0,
+            "instability": 0.067
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 6,
+          "risk": 3.3,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.037,
+            "satellite": 0.0,
+            "lightning": 0.023,
+            "instability": 0.095
+          },
+          "reasons": []
+        },
+        {
+          "row": 0,
+          "col": 7,
+          "risk": 1.8,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.003,
+            "satellite": 0.018,
+            "lightning": 0.037,
+            "instability": 0.02
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "risk": 0.6,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.0,
+            "lightning": 0.015,
+            "instability": 0.016
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "risk": 1.8,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.033,
+            "satellite": 0.0,
+            "lightning": 0.0,
+            "instability": 0.043
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "risk": 1.7,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.016,
+            "lightning": 0.011,
+            "instability": 0.065
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "risk": 3.9,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.098,
+            "lightning": 0.003,
+            "instability": 0.089
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "risk": 4.4,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.015,
+            "satellite": 0.05,
+            "lightning": 0.017,
+            "instability": 0.149
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "risk": 5.8,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.022,
+            "satellite": 0.113,
+            "lightning": 0.019,
+            "instability": 0.114
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 6,
+          "risk": 3.7,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.006,
+            "satellite": 0.06,
+            "lightning": 0.0,
+            "instability": 0.13
+          },
+          "reasons": []
+        },
+        {
+          "row": 1,
+          "col": 7,
+          "risk": 2.5,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.025,
+            "lightning": 0.0,
+            "instability": 0.125
+          },
+          "reasons": []
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "risk": 0.9,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.0,
+            "lightning": 0.034,
+            "instability": 0.0
+          },
+          "reasons": []
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "risk": 2.2,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.028,
+            "satellite": 0.001,
+            "lightning": 0.0,
+            "instability": 0.08
+          },
+          "reasons": []
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "risk": 4.9,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.03,
+            "satellite": 0.078,
+            "lightning": 0.007,
+            "instability": 0.112
+          },
+          "reasons": []
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "risk": 5.1,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.001,
+            "satellite": 0.099,
+            "lightning": 0.0,
+            "instability": 0.176
+          },
+          "reasons": []
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "risk": 11.5,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.052,
+            "satellite": 0.21,
+            "lightning": 0.025,
+            "instability": 0.251
+          },
+          "reasons": []
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "risk": 10.5,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.056,
+            "satellite": 0.19,
+            "lightning": 0.02,
+            "instability": 0.218
+          },
+          "reasons": []
+        },
+        {
+          "row": 2,
+          "col": 6,
+          "risk": 10.0,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.06,
+            "satellite": 0.157,
+            "lightning": 0.0,
+            "instability": 0.262
+          },
+          "reasons": []
+        },
+        {
+          "row": 2,
+          "col": 7,
+          "risk": 8.1,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.022,
+            "satellite": 0.148,
+            "lightning": 0.013,
+            "instability": 0.222
+          },
+          "reasons": []
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "risk": 3.9,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.028,
+            "satellite": 0.059,
+            "lightning": 0.025,
+            "instability": 0.054
+          },
+          "reasons": []
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "risk": 3.7,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.015,
+            "satellite": 0.021,
+            "lightning": 0.035,
+            "instability": 0.119
+          },
+          "reasons": []
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "risk": 5.3,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.104,
+            "lightning": 0.019,
+            "instability": 0.147
+          },
+          "reasons": []
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "risk": 10.8,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.035,
+            "satellite": 0.188,
+            "lightning": 0.043,
+            "instability": 0.253
+          },
+          "reasons": []
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "risk": 16.3,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.097,
+            "satellite": 0.289,
+            "lightning": 0.055,
+            "instability": 0.286
+          },
+          "reasons": []
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "risk": 21.5,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.174,
+            "satellite": 0.331,
+            "lightning": 0.074,
+            "instability": 0.353
+          },
+          "reasons": []
+        },
+        {
+          "row": 3,
+          "col": 6,
+          "risk": 21.3,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.144,
+            "satellite": 0.331,
+            "lightning": 0.103,
+            "instability": 0.362
+          },
+          "reasons": []
+        },
+        {
+          "row": 3,
+          "col": 7,
+          "risk": 12.2,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.071,
+            "satellite": 0.186,
+            "lightning": 0.017,
+            "instability": 0.309
+          },
+          "reasons": []
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "risk": 2.0,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.015,
+            "satellite": 0.012,
+            "lightning": 0.013,
+            "instability": 0.058
+          },
+          "reasons": []
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "risk": 3.5,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.002,
+            "satellite": 0.064,
+            "lightning": 0.021,
+            "instability": 0.09
+          },
+          "reasons": []
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "risk": 8.8,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.027,
+            "satellite": 0.164,
+            "lightning": 0.022,
+            "instability": 0.212
+          },
+          "reasons": []
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "risk": 17.0,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.118,
+            "satellite": 0.281,
+            "lightning": 0.036,
+            "instability": 0.332
+          },
+          "reasons": []
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "risk": 26.3,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.189,
+            "satellite": 0.427,
+            "lightning": 0.122,
+            "instability": 0.395
+          },
+          "reasons": []
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "risk": 36.2,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.318,
+            "satellite": 0.48,
+            "lightning": 0.223,
+            "instability": 0.499
+          },
+          "reasons": []
+        },
+        {
+          "row": 4,
+          "col": 6,
+          "risk": 35.6,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.312,
+            "satellite": 0.429,
+            "lightning": 0.279,
+            "instability": 0.467
+          },
+          "reasons": []
+        },
+        {
+          "row": 4,
+          "col": 7,
+          "risk": 26.4,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.255,
+            "satellite": 0.335,
+            "lightning": 0.111,
+            "instability": 0.421
+          },
+          "reasons": []
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "risk": 2.3,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.0,
+            "satellite": 0.0,
+            "lightning": 0.034,
+            "instability": 0.096
+          },
+          "reasons": []
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "risk": 5.4,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.016,
+            "satellite": 0.098,
+            "lightning": 0.018,
+            "instability": 0.13
+          },
+          "reasons": []
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "risk": 8.6,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.017,
+            "satellite": 0.163,
+            "lightning": 0.0,
+            "instability": 0.265
+          },
+          "reasons": []
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "risk": 23.1,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.164,
+            "satellite": 0.38,
+            "lightning": 0.114,
+            "instability": 0.333
+          },
+          "reasons": []
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "risk": 38.6,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.365,
+            "satellite": 0.473,
+            "lightning": 0.27,
+            "instability": 0.481
+          },
+          "reasons": []
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "risk": 50.0,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.49,
+            "satellite": 0.535,
+            "lightning": 0.462,
+            "instability": 0.528
+          },
+          "reasons": [
+            "Cloud-top cooling detected in satellite IR imagery",
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 5,
+          "col": 6,
+          "risk": 47.7,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.472,
+            "satellite": 0.489,
+            "lightning": 0.443,
+            "instability": 0.528
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 5,
+          "col": 7,
+          "risk": 35.3,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.37,
+            "satellite": 0.333,
+            "lightning": 0.281,
+            "instability": 0.469
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "risk": 1.8,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.027,
+            "satellite": 0.008,
+            "lightning": 0.0,
+            "instability": 0.041
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "risk": 5.1,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.018,
+            "satellite": 0.102,
+            "lightning": 0.014,
+            "instability": 0.107
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "risk": 11.6,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.07,
+            "satellite": 0.179,
+            "lightning": 0.034,
+            "instability": 0.256
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "risk": 21.6,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.15,
+            "satellite": 0.348,
+            "lightning": 0.086,
+            "instability": 0.367
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 4,
+          "risk": 37.2,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.347,
+            "satellite": 0.467,
+            "lightning": 0.273,
+            "instability": 0.439
+          },
+          "reasons": []
+        },
+        {
+          "row": 6,
+          "col": 5,
+          "risk": 47.5,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.464,
+            "satellite": 0.484,
+            "lightning": 0.459,
+            "instability": 0.51
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 6,
+          "col": 6,
+          "risk": 46.2,
+          "category": "ORANGE",
+          "proxies": {
+            "radar": 0.463,
+            "satellite": 0.434,
+            "lightning": 0.459,
+            "instability": 0.51
+          },
+          "reasons": [
+            "High atmospheric instability (CAPE/wind shear)"
+          ]
+        },
+        {
+          "row": 6,
+          "col": 7,
+          "risk": 31.5,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.302,
+            "satellite": 0.333,
+            "lightning": 0.229,
+            "instability": 0.461
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 0,
+          "risk": 2.6,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.029,
+            "satellite": 0.03,
+            "lightning": 0.001,
+            "instability": 0.052
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 1,
+          "risk": 4.8,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.011,
+            "satellite": 0.081,
+            "lightning": 0.032,
+            "instability": 0.108
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 2,
+          "risk": 8.4,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.057,
+            "satellite": 0.139,
+            "lightning": 0.0,
+            "instability": 0.195
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 3,
+          "risk": 12.7,
+          "category": "GREEN",
+          "proxies": {
+            "radar": 0.077,
+            "satellite": 0.187,
+            "lightning": 0.013,
+            "instability": 0.332
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 4,
+          "risk": 24.9,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.216,
+            "satellite": 0.327,
+            "lightning": 0.146,
+            "instability": 0.366
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 5,
+          "risk": 32.7,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.317,
+            "satellite": 0.34,
+            "lightning": 0.258,
+            "instability": 0.445
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 6,
+          "risk": 30.8,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.31,
+            "satellite": 0.297,
+            "lightning": 0.245,
+            "instability": 0.425
+          },
+          "reasons": []
+        },
+        {
+          "row": 7,
+          "col": 7,
+          "risk": 23.0,
+          "category": "YELLOW",
+          "proxies": {
+            "radar": 0.215,
+            "satellite": 0.225,
+            "lightning": 0.168,
+            "instability": 0.375
+          },
+          "reasons": []
+        }
+      ],
+      "summary": {
+        "thunderstorm_risk": 50.0,
+        "lightning_risk": 46.2,
+        "rainfall_probability": 49.0,
+        "peak_cell": {
+          "row": 5,
+          "col": 5
+        },
+        "top_reasons": [
+          "Cloud-top cooling detected in satellite IR imagery",
+          "High atmospheric instability (CAPE/wind shear)"
+        ]
+      }
+    }
+  ],
+  "headline": {
+    "confidence": "HIGH",
+    "expected_peak_step": "+30",
+    "peak_thunderstorm_risk": 92.3
+  }
+}

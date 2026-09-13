@@ -1,0 +1,226 @@
+:root {
+  --navy: #12163b;
+  --navy-2: #1b2158;
+  --panel: #ffffff;
+  --bg: #f5f6fb;
+  --teal: #1c7293;
+  --amber: #f2a93b;
+  --amber-dk: #c97e12;
+  --red: #d64545;
+  --green: #2e8b57;
+  --text-dark: #1b2140;
+  --text-muted: #6b7280;
+  --line: #e2e4ee;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Calibri", "Segoe UI", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text-dark);
+}
+
+header.app-header {
+  padding: 20px 28px 8px;
+}
+
+header.app-header .kicker {
+  color: var(--amber-dk);
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+}
+
+header.app-header h1 {
+  font-family: Cambria, Georgia, serif;
+  font-size: 26px;
+  margin: 4px 0 2px;
+}
+
+header.app-header p {
+  color: var(--text-muted);
+  font-size: 13px;
+  margin: 0;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 20px;
+  padding: 12px 28px 28px;
+  align-items: start;
+}
+
+.panel {
+  background: var(--panel);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  box-shadow: 0 4px 14px rgba(20, 25, 60, 0.06);
+  padding: 20px;
+}
+
+.panel.dark {
+  background: var(--navy);
+  border: none;
+  color: #d8daf2;
+}
+
+.panel-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  color: var(--teal);
+  margin-bottom: 12px;
+}
+
+.panel.dark .panel-label { color: var(--amber); }
+
+.layer-toggles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  font-size: 12.5px;
+  color: #9aa0cc;
+  margin-bottom: 14px;
+}
+
+.layer-toggles label { display: flex; align-items: center; gap: 5px; cursor: default; }
+
+.grid-wrap { display: flex; gap: 20px; }
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 5px;
+  width: 260px;
+}
+
+.cell {
+  aspect-ratio: 1;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: transform 0.12s ease;
+}
+
+.cell:hover { transform: scale(1.08); }
+.cell.selected { border-color: #ffffff; box-shadow: 0 0 0 2px var(--amber); }
+
+.risk-bars { flex: 1; min-width: 160px; }
+
+.bar-row { margin-bottom: 14px; }
+.bar-row .bar-label { font-size: 12px; margin-bottom: 5px; color: #d8daf2; }
+.bar-track {
+  background: #2a3170;
+  border-radius: 5px;
+  height: 10px;
+  overflow: hidden;
+}
+.bar-fill { height: 100%; border-radius: 5px; transition: width 0.35s ease; }
+
+.timeline {
+  margin-top: 18px;
+}
+
+.timeline .steps {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11.5px;
+  color: #9aa0cc;
+  margin-bottom: 6px;
+}
+
+.timeline .steps span { cursor: pointer; padding: 2px 6px; border-radius: 4px; }
+.timeline .steps span.active { background: var(--amber); color: var(--navy); font-weight: 700; }
+
+input[type="range"] { width: 100%; accent-color: var(--amber); }
+
+.alert-banner {
+  margin-top: 16px;
+  border-radius: 8px;
+  padding: 12px 14px;
+  font-weight: 700;
+  font-size: 13px;
+  text-align: center;
+  color: var(--navy);
+}
+
+.why-btn {
+  margin-top: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  padding: 11px;
+  font-weight: 700;
+  font-size: 13px;
+  background: var(--amber);
+  color: var(--navy);
+  cursor: pointer;
+}
+.why-btn:hover { filter: brightness(1.05); }
+
+.reason-list { list-style: none; margin: 10px 0 0; padding: 0; }
+.reason-list li {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  font-size: 12.5px;
+  color: var(--text-dark);
+  margin-bottom: 12px;
+}
+.reason-list li .dot {
+  flex: none;
+  width: 22px; height: 22px;
+  border-radius: 50%;
+  background: var(--green);
+  color: white;
+  font-size: 12px;
+  display: flex; align-items: center; justify-content: center;
+  margin-top: 1px;
+}
+
+.meta-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: var(--text-muted);
+  padding: 6px 0;
+  border-bottom: 1px dashed var(--line);
+}
+.meta-row b { color: var(--text-dark); }
+
+.impact-zones {
+  margin-top: 16px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.impact-chip {
+  font-size: 11.5px;
+  background: #fff4e0;
+  color: var(--amber-dk);
+  border: 1px solid #f2d9a8;
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-weight: 600;
+}
+.impact-chip.hot {
+  background: #fdeaea;
+  color: var(--red);
+  border-color: #f3c3c3;
+}
+
+footer.app-footer {
+  text-align: center;
+  font-size: 11px;
+  color: var(--text-muted);
+  padding: 0 0 20px;
+}
+
+@media (max-width: 900px) {
+  .layout { grid-template-columns: 1fr; }
+  .grid-wrap { flex-direction: column; }
+  #grid { width: 100%; max-width: 320px; }
+}

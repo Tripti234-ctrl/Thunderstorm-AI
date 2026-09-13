@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ThunderGuard AI — Prototype Dashboard</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="app-header">
+  <div class="kicker">PROTOTYPE · THUNDERGUARD AI</div>
+  <h1 id="region-title">Thunderstorm &amp; Lightning Nowcast — Dehradun</h1>
+  <p>0–60 min risk forecast from a rule-based multi-source fusion baseline (synthetic demo data)</p>
+</header>
+
+<div class="layout">
+
+  <!-- LEFT: risk grid + timeline -->
+  <section class="panel dark">
+    <div class="panel-label">LIVE RISK MAP</div>
+    <div class="layer-toggles">
+      <label>☑ Radar</label>
+      <label>☑ Satellite</label>
+      <label>☑ Lightning</label>
+      <label>☑ AI Prediction</label>
+      <label>☑ Risk Zones</label>
+    </div>
+
+    <div class="grid-wrap">
+      <div id="grid"></div>
+
+      <div class="risk-bars">
+        <div class="bar-row">
+          <div class="bar-label" id="ts-label">Thunderstorm Risk — 0%</div>
+          <div class="bar-track"><div class="bar-fill" id="bar-ts" style="width:0%; background: var(--amber);"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label" id="lt-label">Lightning Risk — 0%</div>
+          <div class="bar-track"><div class="bar-fill" id="bar-lt" style="width:0%; background: var(--red);"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label" id="rf-label">Rainfall Probability — 0%</div>
+          <div class="bar-track"><div class="bar-fill" id="bar-rf" style="width:0%; background: var(--teal);"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline">
+      <div class="steps" id="step-labels"></div>
+      <input type="range" id="time-slider" min="0" max="4" step="1" value="0" />
+    </div>
+
+    <div class="alert-banner" id="alert-banner">RISK LEVEL: —</div>
+
+    <button class="why-btn" id="why-btn">⚠ Why this alert?</button>
+  </section>
+
+  <!-- RIGHT: explainability + meta + impact -->
+  <section class="panel">
+    <div class="panel-label">"WHY THIS ALERT?" — EXPLAINABLE AI</div>
+    <p style="font-size:12.5px; color:var(--text-muted); margin-top:0;">
+      Click any grid cell, or the region's highest-risk cell is shown by default.
+      Every alert shows the evidence behind the number instead of a bare percentage.
+    </p>
+    <ul class="reason-list" id="reason-list"></ul>
+
+    <div style="margin-top:18px;">
+      <div class="meta-row"><span>Selected cell</span><b id="meta-cell">—</b></div>
+      <div class="meta-row"><span>Forecast horizon</span><b>0–60 minutes</b></div>
+      <div class="meta-row"><span>Expected peak</span><b id="meta-peak">—</b></div>
+      <div class="meta-row"><span>Confidence</span><b id="meta-conf">—</b></div>
+    </div>
+
+    <div class="panel-label" style="margin-top:20px;">IMPACT ZONES</div>
+    <div class="impact-zones" id="impact-zones"></div>
+  </section>
+
+</div>
+
+<footer class="app-footer">
+  ThunderGuard AI prototype · synthetic demo data · rule-based fusion baseline · not an official weather warning
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
